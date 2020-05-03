@@ -21,6 +21,11 @@ class ViewController: UIViewController {
         print("fourth line-feature1")
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("first line-master viewWillAppear")
+    }
 
 
 }
