@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         print("first line-master viewWillAppear")
         print("second line-master viewWillAppear")
+        print("third line-feature1 viewWillAppear")
     }
 }
 
