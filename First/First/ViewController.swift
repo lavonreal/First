@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("first line-master viewWillAppear")
+        print("second line-master viewWillAppear")
     }
 }
 
