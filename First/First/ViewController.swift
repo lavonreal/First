@@ -27,6 +27,10 @@ class ViewController: UIViewController {
         print("first line-master viewWillAppear")
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("first line-feature1 viewWillAppear")
+    }
 
 }
 
