@@ -33,5 +33,9 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         print("first line-feature1 viewDidAppear")
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
 }
 
